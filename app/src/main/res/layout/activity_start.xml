@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context="com.example.shubhraj.dealskart.StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            android:background="@color/purple"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/name"
+            android:background="@color/purple"/>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_background" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I AM A..."
+            android:textStyle="bold"
+            android:id="@+id/iama"
+            android:textSize="35dp"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iama"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/buyer"
+            android:src="@drawable/ic_buyer"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/seller"
+            android:layout_below="@+id/iama"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iama"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_seller"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+
+</LinearLayout>

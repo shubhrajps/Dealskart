@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_conv"
+            android:icon="@drawable/ic_question_answer_black_48dp"
+            android:title="Conversation" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_48dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_postreq"
+            android:icon="@drawable/ic_send_black_48dp"
+            android:title="Posted Requirements" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_help_black_48dp"
+            android:title="Support" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_input_black_48dp"
+            android:title="Log out" />
+    </group>
+
+</menu>
